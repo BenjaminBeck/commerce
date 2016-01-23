@@ -1,5 +1,5 @@
 {
-	"name": "commerceteam/commerce",
+	"name": "benjamin/commerce",
 	"type": "typo3-cms-extension",
 	"description": "TYPO3 commerce shopping system",
 	"homepage": "https://github.com/CommerceTeam/commerce/",
@@ -32,8 +32,8 @@
 	},
 	"repositories": [
 		{
-			"type": "vcs",
-			"url": "https://github.com/CommerceTeam/commerce.git"
+			"type": "git",
+			"url": "https://github.com/BenjminBeck/commerce.git"
 		}
 	]
 }
