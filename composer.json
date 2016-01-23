@@ -17,7 +17,7 @@
 	
 	"require": {
 		"typo3/cms-core": "*",
-		"tt_address": "*",
+		"friendsoftypo3/tt-address": "*",
 		"dynaflex": "*",
 		"static_info_tables": "*"
 	},
