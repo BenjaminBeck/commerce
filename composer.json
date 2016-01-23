@@ -1,10 +1,10 @@
 {
-	"name": "commerceteam/commerce",
+	"name": "benjamin/commerce",
 	"type": "typo3-cms-extension",
 	"description": "TYPO3 commerce shopping system",
 	"homepage": "https://github.com/CommerceTeam/commerce/",
 	"license": ["GPL-2.0+"],
-	"version": "4.0.0",
+	"version": "4.6.0",
 
 	"support" : {
 		"issues" : "https://forge.typo3.org/projects/extension-commerce/issues"
@@ -15,25 +15,28 @@
 		"eCommerce"
 	],
 	
-	"replace": {
-		"commerce": "self.version",
-		"typo3-ter/commerce": "self.version"
-	},
 	"require": {
 		"typo3/cms-core": "*",
-		"tt_address": ">= 3.0",
-		"dynaflex": ">= 2.0",
-		"static_info_tables": ">= 6.2.0"
+		"friendsoftypo3/tt-address": "*",
+		"benjamin/dynaflex": "*",
+		"sjbr/static_info_tables": "*"
 	},
-	"autoload": {
+	"autoload": { 
 		"psr-4": {
 			"CommerceTeam\\Commerce\\": "Classes/"
 		}
 	},
 	"repositories": [
 		{
-			"type": "vcs",
-			"url": "https://github.com/CommerceTeam/commerce.git"
+			"type": "git",
+			"url": "https://github.com/BenjminBeck/commerce.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/BenjminBeck/dynaflex.git"
+		},{
+			"type": "git",
+			"url": "https://github.com/TYPO3-extensions/static_info_tables.git"
 		}
 	]
 }
