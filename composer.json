@@ -21,7 +21,7 @@
 		"dynaflex": "*",
 		"static_info_tables": "*"
 	},
-	"autoload": {
+	"autoload": { 
 		"psr-4": {
 			"CommerceTeam\\Commerce\\": "Classes/"
 		}
