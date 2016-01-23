@@ -15,10 +15,6 @@
 		"eCommerce"
 	],
 	
-	"replace": {
-		"commerce": "self.version",
-		"typo3-ter/commerce": "self.version"
-	},
 	"require": {
 		"typo3/cms-core": "*",
 		"tt_address": "*",
