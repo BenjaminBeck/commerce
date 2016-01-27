@@ -19,7 +19,7 @@
 		"typo3/cms-core": "*",
 		"friendsoftypo3/tt-address": "*",
 		"benjamin/dynaflex": "*",
-		"static_info_tables": "*"
+		"sjbr/static_info_tables": "*"
 	},
 	"autoload": { 
 		"psr-4": {
@@ -34,6 +34,9 @@
 		{
 			"type": "git",
 			"url": "https://github.com/BenjminBeck/dynaflex.git"
+		},{
+			"type": "git",
+			"url": "https://github.com/TYPO3-extensions/static_info_tables.git"
 		}
 	]
 }
